@@ -3,9 +3,9 @@
 // stack
 // keywords; PUSH, POP, length, shift
 
-// push = pushes something to the array
-// pop = drops the last item of the array, so it works as a selector of the last item
-// shift = selects the first item and drops it.
+//* push = pushes something to the array
+//* pop = drops the last item of the array, so it works as a selector of the last item
+//* shift = selects the first item and drops it.
 
 // palindrome checker
 let word = "lieutenant"
