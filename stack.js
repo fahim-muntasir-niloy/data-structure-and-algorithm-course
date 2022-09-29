@@ -1,11 +1,12 @@
-// THis is a file to learn data structure and algorithms using JS
+// This is a file to learn data structure and algorithms using JS
 
-// stack
+//! stack
 // keywords; PUSH, POP, length, shift
 
 //* push = pushes something to the array
 //* pop = drops the last item of the array, so it works as a selector of the last item
 //* shift = selects the first item and drops it.
+//? peek was previously used as shift but its depricated.
 
 // palindrome checker
 let word = "lieutenant"
