@@ -7,5 +7,5 @@ let abc = new Set(['a','random','set','with',6,'elements','set','random','khala'
 console.log(abc.size) //this only counts the unique values of the set
 
 for (items of abc) {
-    console.log(items);
+    console.log(items); //this iteration returns unique values of set
 }
