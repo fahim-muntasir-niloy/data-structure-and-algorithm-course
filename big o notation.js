@@ -29,3 +29,5 @@ console.log(`Time to render: ${(time2-time1)/1000}`)
 // so the equational approach is less time consuming. thus reducing time complexity.
 
 
+//! However time complexity is not always the best appraoch to understand the best performance. As different machine can give up different time.
+//* Thats why big o notation is used. It simply means the number of calculations done to solve the problem. big o(1) means the best performer.
