@@ -11,3 +11,6 @@ Algorithms covered:
 7. Trie 
 8. Heap
 9. Graph
+
+# these are from `CODE ABC` Channel
+1. Big o notation
