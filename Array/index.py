@@ -8,13 +8,14 @@ another_arr = array('i', [1,2,35,4,5])
 
 print(an_arr)
 print(len(an_arr))
-print(another_arr)    # returns last item
+
 
 an_arr.append(-30)
 print(an_arr)
 
-# str_arr = array('u', ['a','e','i','o','u'])
-str_arr = array('u', ['python','is','fun'])
+str_arr = array('u', ['a','e','i','o','u'])
+# str_arr = array('u', ['python','is','fun'])
+
 print(str_arr)
 
 import numpy as np
