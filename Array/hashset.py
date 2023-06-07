@@ -5,7 +5,7 @@ hash_set = set()
 # This also works taking hash_set as empty list and appending items. But it is slower than adding to set.
 
 
-def dup(arr):
+def duplicate(arr):
    for j in arr:
       if j in hash_set:
          return True
@@ -13,7 +13,7 @@ def dup(arr):
    return False
       
 
-print(dup(a))
+print(duplicate(a))
 print(len(a))
 print(len(hash_set))
 
