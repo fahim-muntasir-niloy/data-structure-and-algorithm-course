@@ -19,7 +19,7 @@ print(my_set)
 # output
 # {'GO'}
 ```
-
+To join sets or multiple items, `update` or `union` can be used. Though similar, set methods are different from `list.append()` method.
 
 ```python
 my_set.update(["python","Java","C++"])
@@ -48,5 +48,6 @@ print(my_set)
 ```
 C++ wasn't added again, as it had already that item. `Sets` are very much useful in finding unique items in an array, it also removes duplicates, which you will see in the code.
 
-## References
+# References
 1. [Sets in Python](https://www.w3schools.com/python/python_sets.asp)
+2. [Set Methods](https://www.w3schools.com/python/python_sets_methods.asp)
