@@ -1,7 +1,11 @@
 country_map = {'BD':'Bangladesh',
                'IN':'India',
                'USA':'United States of America'}
-
+language = {
+    'BD':'Bangla',
+    'USA':'Dollar',
+    'UGANDA':'Dollar'
+}
 
 # getting keys -> same outputs
 for i in country_map:
@@ -17,3 +21,8 @@ for i in (country_map):
 
 for i in country_map.values():
     print(i)
+
+
+# To get both key and values
+for i,j in country_map.items():
+    print(i,j)

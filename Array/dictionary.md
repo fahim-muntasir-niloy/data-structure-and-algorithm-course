@@ -1,6 +1,6 @@
-# Hashmap in Python
+# Dictionary in Python
 
-Hashmaps are dictionaries, that contains a key and a value at any postion. For examples:
+Dictionaries, contains a key and a value at any postion. For examples:
 
 ```python
 country_map = {'BD':'Bangladesh','IN':'India','USA':'United States of America'}
