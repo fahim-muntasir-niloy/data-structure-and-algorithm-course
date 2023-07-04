@@ -51,3 +51,4 @@ Now that you have a good knowledge of the language, you are ready to use them in
 # References
 1. [DSA Roadmap - www.scaler.com](https://www.scaler.com/topics/dsa-roadmap/)
 2. [NeetCode Roadmap](https://neetcode.io/roadmap)
+3. [Need of Data Structures and Algorithms for Deep Learning and Machine Learning](https://www.geeksforgeeks.org/need-of-data-structures-and-algorithms-for-deep-learning-and-machine-learning/)
