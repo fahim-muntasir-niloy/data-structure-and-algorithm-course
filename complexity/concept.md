@@ -12,6 +12,16 @@ This is a representation of complexity of the code. This is also dependent upon 
 # Time complexity
 Time required for a code to compile or produce output based on the input. It doesnt necessarily mean that the algorithm used, will be the fastest all the time in every scenario.
 
+1. When your calculation is not dependent on the input size, it is a constant time complexity $(O(1))$.
+
+2. When the input size is reduced by half, maybe when iterating, handling recursion, or whatsoever, it is a logarithmic time complexity $(O(log n))$.
+
+3. When you have a single loop within your algorithm, it is linear time complexity $(O(n))$.
+
+4. When you have nested loops within your algorithm, meaning a loop in a loop, it is quadratic time complexity $(O(n^2))$.
+
+5. When the growth rate doubles with each addition to the input, it is exponential time complexity $(O(2^n))$.
+
 
 # Space Complexity
 Memory or, storage space required for a code to compile, including the space of input values for execution. The best algorithm/program should have a low level of space complexity. The less space required, the faster it executes.
