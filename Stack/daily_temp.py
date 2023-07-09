@@ -1,17 +1,13 @@
 def dailyTemp(temp):
-    tempStack = []
-    outStack = []
+    tempStack = []  # [(index, value)]
+    outStack = [0] * len(temp)
     
     for i,j in enumerate(temp):
-        if tempStack:
-            if tempStack[-1]<j:
-                # tempStack.pop()
-                tempStack.append(i)
-            
-        else:
-            tempStack.append(i)
-            
-    return tempStack
+        while tempStack and j > tempStack[-1][1]:
+            stack_index , stack_temp = tempStack.pop()
+            outStack[stack_index] = i-stack_index
+        tempStack.append((i,j))
+    return outStack
         
         
         
